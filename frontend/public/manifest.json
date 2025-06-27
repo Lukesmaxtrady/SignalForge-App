@@ -1,0 +1,13 @@
+{
+  "short_name": "SignalForge",
+  "name": "SignalForge Trading AI Suite",
+  "icons": [
+    { "src": "logo.svg", "type": "image/svg+xml", "sizes": "512x512" },
+    { "src": "favicon.ico", "type": "image/x-icon", "sizes": "64x64" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#11182c",
+  "theme_color": "#2F3247",
+  "description": "AI-powered trading signals, analytics, and risk control in one mobile superapp."
+}

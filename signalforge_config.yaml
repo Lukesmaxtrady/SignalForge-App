@@ -1,0 +1,31 @@
+app_name: SignalForge
+default_mode: beginner
+default_exchange: binance
+default_pairs: [BTCUSDT, ETHUSDT, SOLUSDT, AVAXUSDT, LINKUSDT, SUIUSDT]
+security_modes:
+  - normal
+  - high
+  - ultra
+performance_modes:
+  - standard
+  - high
+  - ultra
+  - extreme
+ui_themes: [space, gold, diamond, cyberpunk, titanium, business, robot, cartoon]
+paid_feature_toggles:
+  enabled: false
+  available: [ultra_performance, high_security, extreme_mode, paid_llm, premium_alerts]
+integrations:
+  telegram: true
+  discord: true
+  tradingview: true
+  banterbubbles: true
+  coinstats: true
+  glassnode: true
+  openbb: true
+  notion: true
+budget:
+  max_monthly: 100
+logging:
+  file: logs/app.log
+  level: INFO

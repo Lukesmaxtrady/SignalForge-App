@@ -1,0 +1,13 @@
+alpha_capital:
+  max_daily_loss: 0.03
+  max_total_loss: 0.06
+  min_trading_days: 10
+  challenge_phases: 2
+myfundedfx:
+  max_daily_loss: 0.04
+  max_total_loss: 0.08
+  min_trading_days: 10
+bitfunded:
+  max_daily_loss: 0.05
+  max_total_loss: 0.09
+  min_trading_days: 10

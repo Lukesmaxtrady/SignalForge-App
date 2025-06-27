@@ -1,0 +1,35 @@
+services:
+  - type: web
+    name: signalforge-api
+    env: python
+    plan: starter-plus
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.runtime.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONPATH
+        value: .
+      - fromGroup: signalforge-secrets
+    workDir: src
+
+  - type: worker
+    name: signalforge-worker
+    env: python
+    plan: starter-plus
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.runtime.txt
+    startCommand: python worker.py
+    envVars:
+      - key: PYTHONPATH
+        value: .
+      - fromGroup: signalforge-secrets
+    workDir: src
+
+  - type: static
+    name: signalforge-frontend
+    env: static
+    buildCommand: |
+      cd frontend && npm ci && npm run build
+    staticPublishPath: frontend/dist

@@ -1,0 +1,36 @@
+body {
+  font-family: "Montserrat", "Orbitron", "sans-serif";
+  background: #22223b;
+  color: #f2e9e4;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3a5a40;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #b7e4c7;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a5a40;
+  border-radius: 4px;
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}

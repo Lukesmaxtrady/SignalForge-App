@@ -1,0 +1,12 @@
+[
+  {
+    "id": "BTCUSD-20240621-1",
+    "symbol": "BTCUSD",
+    "direction": "buy",
+    "confidence": 0.91,
+    "entry": 67500,
+    "target": 68700,
+    "stop": 66800,
+    "issued_at": "2024-06-21T11:40:00Z"
+  }
+]

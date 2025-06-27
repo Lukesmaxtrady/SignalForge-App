@@ -1,0 +1,18 @@
+app:
+  mode: beginner
+  enable_shadow: true
+  enable_premium_data: false
+  theme: pro
+risk:
+  max_daily_loss: 0.05
+  max_drawdown: 0.1
+  max_position_size: 0.2
+model:
+  meta_type: xgboost
+  optimize: false
+  retrain_days: 7
+execution:
+  latency_ms: 250
+  slippage_bps: 2
+logging:
+  level: INFO

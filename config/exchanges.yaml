@@ -1,0 +1,8 @@
+bitget:
+  api_key: ${BITGET_API_KEY}
+  api_secret: ${BITGET_API_SECRET}
+  demo: true
+blofin:
+  api_key: ${BLOFIN_API_KEY}
+  api_secret: ${BLOFIN_API_SECRET}
+  demo: true

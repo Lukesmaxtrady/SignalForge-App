@@ -1,0 +1,21 @@
+theme: pro
+panels_enabled:
+  - onboarding_panel
+  - executive_dashboard_panel
+  - bots_overview_panel
+  - bot_control_panel
+  - trade_journal_panel
+  - analytics_panel
+  - performance_visualizer_panel
+  - risk_dashboard_panel
+  - ml_analytics_panel
+  - market_intelligence_panel
+  - alert_manager_panel
+  - overlay_manager_panel
+  - config_hot_reload_panel
+  - llm_audit_panel
+  - guided_tour_panel
+  - command_palette_panel
+  - tradingview_widget_panel
+  - integration_panels
+  - monitoring_overlay

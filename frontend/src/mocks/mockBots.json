@@ -1,0 +1,16 @@
+[
+  {
+    "id": "alpha_ensemble",
+    "name": "Alpha Ensemble",
+    "type": "ML + TA",
+    "performance": "High",
+    "status": "running"
+  },
+  {
+    "id": "trend_follow",
+    "name": "Trend Follower",
+    "type": "TA",
+    "performance": "Medium",
+    "status": "idle"
+  }
+]
