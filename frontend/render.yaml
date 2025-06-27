@@ -1,6 +1,6 @@
 services:
-  - type: static
+  - type: web service
     name: signaleforge-frontend
-    env: static
+    env: node
     buildCommand: npm install && npm run build
     staticPublishPath: .next
